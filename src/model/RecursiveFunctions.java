@@ -13,7 +13,7 @@ public class RecursiveFunctions {
 	}
 
 
-	public static int fibonacci(int n) {
+	public static long fibonacci(int n) {
 		if(n == 0) {
 			return 0;
 		}
@@ -26,7 +26,7 @@ public class RecursiveFunctions {
 
 	}
 
-	public static int arraySummatory(int [] A, int n) {
+	public static long arraySummatory(int [] A, int n) {
 		
 		if( n==0) {
 			return A[0];
